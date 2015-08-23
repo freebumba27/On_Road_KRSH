@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.krsh.onroad.SettingsActivity">
+
+
+    <EditText
+        android:id="@+id/editTextSaveButton"
+        android:layout_width="250dp"
+        android:hint="Emergency Mobile No"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:inputType="phone"
+        android:background="@android:drawable/edit_text"
+        android:maxLength="10"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:background="@color/red"
+        android:text="SAVE"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_below="@+id/editTextSaveButton"
+        android:onClick="savingMobileNo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+</RelativeLayout>

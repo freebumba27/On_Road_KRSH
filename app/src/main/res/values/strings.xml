@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">On Road</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">On Road - Safety</string>
+    <string name="title_activity_show_log">Travel History</string>
+    <string name="title_activity_detail_log">DetailLogActivity</string>
+    <string name="title_activity_reports_detail">Travel Details</string>
+    <string name="title_activity_settings">Save Emergency Number</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>
